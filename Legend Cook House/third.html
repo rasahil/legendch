@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/74b51d56e9.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>user product details</title>
+</head>
+<body>
+    <div class="container  position-relative">
+        <div class=" text-center bg-dark-subtle ">
+            <a href="landing.html" class="text-dark"><i class="fa-solid fa-arrow-left float-start mt-2 m-lg-2 p-2 ms-2"></i></a>
+            <a href="#"><i class="fa-regular  fa-bell float-end  p-2 me-2 mt-1 h5 text-dark "></i></a>
+            <img src="gallery/tabasco.png" class="img-fluid w-100">
+        </div>
+        <div>
+            <p class="fw-bold  p-2 ms-2 text-dark-emphasis opacity-75">Tobasco Sauces </p>
+        </div>
+        <button class="rounded-5 ms-4 opacity-75 fw-semibold p-2 border border-0" style="background-color: #fee8b3;">Description</button>
+        <button class="rounded-5 opacity-50  ms-2 me-4 p-2 border-0" style="background-color: #e5e5e5;">Reviews</button>
+        <p class="m-2 opacity-50 fw-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. porro dolorem temporibus enim veniam sed deserunt, obcaecati dicta earum, aut libero ad, maxime incidunt! Eum fuga iusto nulla nihil quasi assumenda ipsa blanditiis corrupti.</p>
+       <!--midle area and use pagination  -->
+        <div class="d-flex justify-content-between">
+           <div class="">  <p class="fw-bold opacity-75 text-danger p-3">$12</p></div>
+            <div class="p-2">
+                <nav aria-label="Page navigation example" >
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link text-dark fw-bold" style="background-color: #fceee8;" >
+                            <i class="fa-solid fa-minus"></i>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link text-dark fw-bold" href="#">1</a></li>
+                      <li class="page-item">
+                        <a class="page-link text-dark " href="#" aria-label="Next" style="background-color: #fceee8;">
+                            <i class="fa-solid fw-bold fa-plus" ></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+
+        <!-- add to card -->
+        <div class="bg-warning text-center fw-bold p-3" ><a href="fourth.html" class="text-decoration-none text-dark ">Add To Cart</a></div>
+        <hr class="p-2">
+        <p class="fw-bold ms-2"> Related Product</p>
+        <!-- lower images -->
+        <div class="d-flex p-1">
+            <div class="col  m-1 "><img src="gallery/heinz suace.png" class="img-fluid rounded-2" style="background-color: #eeeeee;">
+                <p class="opacity-50 ms-2 fw-bold">Heinz Sauces</p>
+                <p class="fw-bold text-danger fw-bold ms-2">$12</p>
+            </div>
+            <div class="col  m-1 "><img src="gallery/hot suace.png" class="img-fluid rounded-2" style="background-color: #eeeeee; ">
+                <p class="opacity-50 ms-2 fw-bold">Hot Sauces</p>
+                <p class="fw-bold text-danger fw-bold ms-2">$12</p>
+            </div>
+            <div class="col  m-1 "><img src="gallery/tabasco.png" class="img-fluid rounded-2"  style="background-color: #eeeeee;">
+                <p class="opacity-50 ms-2 fw-bold">tabasco Sauces</p>
+                <p class="fw-bold text-danger fw-bold ms-2">$12</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
